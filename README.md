@@ -12,11 +12,14 @@ The purpose of this project is to analyse the outcomes based on launch date and 
 
 ### Analysis of Outcomes Based on Launch Date
 For this, I created pivot table from parent category and years as filters and then filtered the column tabels to show only "sucessful", "failed", and "canceled", I also had to group the "row labels" column to show the months of the year.
-![Outcomes_vs_Goals](https://user-images.githubusercontent.com/93686963/141698995-915debed-b565-4be3-ac2f-1cb231a7cd16.png)
+![Theater_Outcomes_vs_Launch](https://user-images.githubusercontent.com/93686963/141699106-dd20979e-dec6-4a97-ab82-1874d3481d5d.png)
+
 
 ### Analysis of Outcomes Based on Goals
 I created a new sheet with columns and used countifs() functions to populate the number "successful, failes and canceled" columns and used the sum() function to calculate the percentage of the columbus created.
-![Theater_Outcomes_vs_Launch](https://user-images.githubusercontent.com/93686963/141699016-8de5764d-b02b-4776-b39d-f3ae761a4a2e.png)
+![Outcomes_vs_Goals](https://user-images.githubusercontent.com/93686963/141699118-493357c1-a211-4c1c-8fd1-5b989b999e95.png)
+
+
 
 ### Challenges and Difficulties Encountered
 The challenges I faced in this was first creating the date created conversion column and then extract years from it by using years() function.
